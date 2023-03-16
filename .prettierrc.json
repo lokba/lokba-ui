@@ -1,0 +1,22 @@
+{
+  "semi": true,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "useTabs": false,
+  "trailingComma": "all",
+  "printWidth": 100,
+  "endOfLine": "auto",
+  "plugins": ["@trivago/prettier-plugin-sort-imports"],
+  "importOrder": [
+    "^(react)(.*|$)",
+    "^(@emotion)(.*|$)",
+    "^(@/Routes)(.*|$)",
+    "^(@/App)(.*|$)",
+    "^(@/pages)(.*|$)",
+    "^(@/components)(.*|$)",
+    "^(@/constants)(.*|$)",
+    "^(@/styles)(.*|$)"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}

@@ -1,0 +1,38 @@
+{
+  "name": "react-boilerplate",
+  "packageManager": "yarn@3.4.1",
+  "scripts": {
+    "start": "webpack serve --config webpack/webpack.dev.js",
+    "build": "webpack --config webpack/webpack.prod.js",
+    "pretty": "prettier --write 'src/**/*.{ts,tsx}'"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "axios": "^1.3.4",
+    "emotion-normalize": "^11.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.9.0"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^6.5.1",
+    "@trivago/prettier-plugin-sort-imports": "^4.1.1",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "esbuild-loader": "^2.20.0",
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-plugin-react": "latest",
+    "html-webpack-plugin": "^5.5.0",
+    "prettier": "^2.8.4",
+    "typescript": "^4.9.5",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.76.1",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1",
+    "webpack-merge": "^5.8.0"
+  }
+}

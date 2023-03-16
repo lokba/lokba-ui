@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "strict": true,
+    "allowJs": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "esnext",
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "@emotion/react",
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": false,
+    "moduleResolution": "node",
+    "incremental": true,
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src"]
+}
