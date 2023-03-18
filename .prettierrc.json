@@ -9,13 +9,16 @@
   "plugins": ["@trivago/prettier-plugin-sort-imports"],
   "importOrder": [
     "^(react)(.*|$)",
+    "^(react-icons)(.*|$)",
     "^(@emotion)(.*|$)",
     "^(@/Routes)(.*|$)",
     "^(@/App)(.*|$)",
     "^(@/pages)(.*|$)",
     "^(@/components)(.*|$)",
     "^(@/constants)(.*|$)",
-    "^(@/styles)(.*|$)"
+    "^(@/types)(.*|$)",
+    "^(@/styles)(.*|$)",
+    "^(./)(.*|$)"
   ],
   "importOrderSeparation": true,
   "importOrderSortSpecifiers": true
