@@ -18,3 +18,16 @@ dist
 .env.production
 .env.production.local
 .env.test.local
+
+# Packages
+/packages/react/.yarn/*
+/packages/react/yarn.lock
+/packages/react/.pnp.cjs
+/packages/react/.pnp.loader.mjs
+/packages/react/package.json
+/packages/react/tsconfig.tsbuildinfo
+/packages/react/webpack/*
+/packages/react/src/*
+
+# Release
+!/packages/react/src/components
