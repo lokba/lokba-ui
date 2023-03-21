@@ -44,6 +44,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:7.32.2"],\
             ["html-webpack-plugin", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:5.5.0"],\
             ["prettier", "npm:2.8.4"],\
+            ["prism-react-renderer", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:1.3.5"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:18.2.0"],\
             ["react-icons", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:4.8.0"],\
@@ -8470,6 +8471,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["prism-react-renderer", [\
+        ["npm:1.3.5", {\
+          "packageLocation": "./.yarn/cache/prism-react-renderer-npm-1.3.5-5891d32b72-c18806dcbc.zip/node_modules/prism-react-renderer/",\
+          "packageDependencies": [\
+            ["prism-react-renderer", "npm:1.3.5"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:1.3.5", {\
+          "packageLocation": "./.yarn/__virtual__/prism-react-renderer-virtual-5b516b7795/0/cache/prism-react-renderer-npm-1.3.5-5891d32b72-c18806dcbc.zip/node_modules/prism-react-renderer/",\
+          "packageDependencies": [\
+            ["prism-react-renderer", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:1.3.5"],\
+            ["@types/react", "npm:18.0.28"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["process-nextick-args", [\
         ["npm:2.0.1", {\
           "packageLocation": "./.yarn/cache/process-nextick-args-npm-2.0.1-b8d7971609-1d38588e52.zip/node_modules/process-nextick-args/",\
@@ -8635,6 +8658,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:7.32.2"],\
             ["html-webpack-plugin", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:5.5.0"],\
             ["prettier", "npm:2.8.4"],\
+            ["prism-react-renderer", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:1.3.5"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:18.2.0"],\
             ["react-icons", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:4.8.0"],\
