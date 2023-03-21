@@ -36,7 +36,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'React Boilerplate',
+      title: 'Lokba UI',
       template: `./public/index.html`,
     }),
     new webpack.ProvidePlugin({

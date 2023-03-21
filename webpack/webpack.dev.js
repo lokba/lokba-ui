@@ -11,5 +11,6 @@ module.exports = () =>
       hot: true,
       compress: true,
       historyApiFallback: true,
+      liveReload: false,
     },
   });
