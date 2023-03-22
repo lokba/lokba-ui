@@ -35,9 +35,7 @@ export const Right = styled.div`
 `;
 
 export const Title = styled.h2`
-  margin: 2rem 0;
   font-size: 3.5rem;
-  border-bottom: 2px solid #e7ebf0;
 `;
 
 export const Description = styled.p`
