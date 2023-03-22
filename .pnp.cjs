@@ -30,6 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@emotion/react", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:11.10.6"],\
             ["@emotion/styled", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:11.10.6"],\
+            ["@lokba-ui/react", "npm:0.0.13"],\
             ["@svgr/webpack", "npm:6.5.1"],\
             ["@trivago/prettier-plugin-sort-imports", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:4.1.1"],\
             ["@types/react", "npm:18.0.28"],\
@@ -3065,6 +3066,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@leichtgewicht-ip-codec-npm-2.0.4-dd4d657af8-468de1f04d.zip/node_modules/@leichtgewicht/ip-codec/",\
           "packageDependencies": [\
             ["@leichtgewicht/ip-codec", "npm:2.0.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@lokba-ui/react", [\
+        ["npm:0.0.13", {\
+          "packageLocation": "./.yarn/cache/@lokba-ui-react-npm-0.0.13-f3c32397f8-a40741050d.zip/node_modules/@lokba-ui/react/",\
+          "packageDependencies": [\
+            ["@lokba-ui/react", "npm:0.0.13"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:f3c32397f858747fb150840c6d277a71304028988d671f52de8c6dcc024db3f1bf1f7630a04388f3816a3389711d8ccbb1213ced14cd0230ccc25d04b2960d9d#npm:18.2.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -8644,6 +8656,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-boilerplate", "workspace:."],\
             ["@emotion/react", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:11.10.6"],\
             ["@emotion/styled", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:11.10.6"],\
+            ["@lokba-ui/react", "npm:0.0.13"],\
             ["@svgr/webpack", "npm:6.5.1"],\
             ["@trivago/prettier-plugin-sort-imports", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:4.1.1"],\
             ["@types/react", "npm:18.0.28"],\
@@ -8686,6 +8699,21 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["react-dom", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:18.2.0"],\
             ["@types/react", "npm:18.0.28"],\
+            ["loose-envify", "npm:1.4.0"],\
+            ["react", "npm:18.2.0"],\
+            ["scheduler", "npm:0.23.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["virtual:f3c32397f858747fb150840c6d277a71304028988d671f52de8c6dcc024db3f1bf1f7630a04388f3816a3389711d8ccbb1213ced14cd0230ccc25d04b2960d9d#npm:18.2.0", {\
+          "packageLocation": "./.yarn/__virtual__/react-dom-virtual-5693d6d9d1/0/cache/react-dom-npm-18.2.0-dd675bca1c-7d323310be.zip/node_modules/react-dom/",\
+          "packageDependencies": [\
+            ["react-dom", "virtual:f3c32397f858747fb150840c6d277a71304028988d671f52de8c6dcc024db3f1bf1f7630a04388f3816a3389711d8ccbb1213ced14cd0230ccc25d04b2960d9d#npm:18.2.0"],\
+            ["@types/react", null],\
             ["loose-envify", "npm:1.4.0"],\
             ["react", "npm:18.2.0"],\
             ["scheduler", "npm:0.23.0"]\
