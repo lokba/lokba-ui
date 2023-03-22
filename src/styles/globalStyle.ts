@@ -6,6 +6,8 @@ const globalStyle = css`
   ${normalize}
 
   * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
   }
 
@@ -16,8 +18,6 @@ const globalStyle = css`
   ol,
   ul,
   li {
-    margin: 0;
-    padding: 0;
     list-style: none;
   }
 
@@ -29,6 +29,10 @@ const globalStyle = css`
     &:link {
       color: black;
     }
+  }
+
+  em {
+    font-style: normal;
   }
 `;
 

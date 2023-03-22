@@ -4,15 +4,15 @@ import styled from '@emotion/styled';
 export const Container = styled.nav`
   display: flex;
   flex-direction: column;
-  gap: 4rem;
-  padding: 2rem;
+  gap: 2.5rem;
+  padding: 1rem 2rem 4rem;
 `;
 
 export const Title = styled.p`
-  margin-bottom: 2rem;
+  margin: 1.5rem 0;
   font-size: 2rem;
   font-weight: 700;
-  text-decoration: underline #2b8a3e double;
+  color: #37b24d;
 `;
 
 export const List = styled.ul`
@@ -20,9 +20,13 @@ export const List = styled.ul`
 `;
 
 export const Menu = styled.li<{ active: boolean }>`
-  margin: 1rem 0;
   font-size: 1.8rem;
   cursor: pointer;
+
+  &:hover {
+    font-weight: 700;
+    background: #d3f9d8;
+  }
 
   a {
     display: block;
@@ -35,17 +39,14 @@ export const Menu = styled.li<{ active: boolean }>`
       padding: 1rem 0;
       border-left: 3px solid #e7ebf0;
     }
-
-    &:hover {
-      font-weight: 700;
-    }
   }
 
   ${({ active }) =>
     active
       ? css`
-          color: #2b8a3e;
           font-weight: 700;
+          color: #2b8a3e;
+          background: #d3f9d8;
 
           a::before {
             border-left: 3px solid #2b8a3e;
