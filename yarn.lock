@@ -1877,6 +1877,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@lokba-ui/react@npm:^0.0.13":
+  version: 0.0.13
+  resolution: "@lokba-ui/react@npm:0.0.13"
+  dependencies:
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: a40741050d692ee618288c68fb36609e4a1dc2c9c7ecd36b7e00ecf9cc364dafa0c76474b3bfaea3d5ac9c01fc2ed470ec95c1728228d8fb3096871ac0dc1b1f
+  languageName: node
+  linkType: hard
+
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -6452,6 +6462,7 @@ __metadata:
   dependencies:
     "@emotion/react": ^11.10.6
     "@emotion/styled": ^11.10.6
+    "@lokba-ui/react": ^0.0.13
     "@svgr/webpack": ^6.5.1
     "@trivago/prettier-plugin-sort-imports": ^4.1.1
     "@types/react": ^18
