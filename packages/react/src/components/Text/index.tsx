@@ -18,7 +18,7 @@ type Props = {
 
 const Text = (props: Props) => {
   const {
-    as = 'div',
+    as,
     fontSize,
     color = '#000000',
     mt = '0px',

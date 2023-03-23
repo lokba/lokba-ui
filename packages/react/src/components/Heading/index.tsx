@@ -6,7 +6,7 @@ type RGBA = `rgba(${number}, ${number}, ${number}, ${number})`;
 type HEX = `#${string}`;
 
 type Props = {
-  as?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
+  as: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
   fontSize?: `${number}${LengthUnit}`;
   color?: RGB | RGBA | HEX;
   mt?: `${number}${LengthUnit}`;
@@ -18,7 +18,7 @@ type Props = {
 
 const Heading = (props: Props) => {
   const {
-    as = 'h1',
+    as,
     fontSize,
     color = '#000000',
     mt = '0px',
