@@ -37,10 +37,16 @@ const Tooltip = (props: Props) => {
   const targetRef = useRef<HTMLDivElement>(null);
   const [offset, setOffset] = useState({ top: 0, left: 0 });
 
-  const [hover, setHover] = useState(true);
+  const [hover, setHover] = useState(false);
 
-  const handleMouseEnter = useCallback(() => setHover(true), []);
-  const handleMouseLeave = useCallback(() => setHover(false), []);
+  const handleMouseEnter: React.MouseEventHandler<HTMLElement> = useCallback((e) => {
+    if ((e.target as HTMLElement).className === 'target') return;
+    setHover(true);
+  }, []);
+  const handleMouseLeave: React.MouseEventHandler<HTMLElement> = useCallback((e) => {
+    if ((e.target as HTMLElement).className === 'target') return;
+    setHover(false);
+  }, []);
 
   useEffect(() => {
     if (!childrenRef.current || !targetRef.current) return;
@@ -79,6 +85,7 @@ const Tooltip = (props: Props) => {
       >
         {children}
         <div
+          className="target"
           ref={targetRef}
           style={{
             position: 'absolute',
