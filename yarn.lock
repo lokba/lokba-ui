@@ -1877,13 +1877,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lokba-ui/react@npm:^0.0.13":
-  version: 0.0.13
-  resolution: "@lokba-ui/react@npm:0.0.13"
+"@lokba-ui/react@npm:^0.0.15":
+  version: 0.0.15
+  resolution: "@lokba-ui/react@npm:0.0.15"
   dependencies:
     react: ^18.2.0
     react-dom: ^18.2.0
-  checksum: a40741050d692ee618288c68fb36609e4a1dc2c9c7ecd36b7e00ecf9cc364dafa0c76474b3bfaea3d5ac9c01fc2ed470ec95c1728228d8fb3096871ac0dc1b1f
+  checksum: e52858175a8e557794a675f27c42f44f5f8bb144a97c2b36a26efa5d4dc67c51e6ae8d4e03ebfde0a88e7de3597a34bcb327092ffcff42d7792e23074afed748
   languageName: node
   linkType: hard
 
@@ -6462,7 +6462,7 @@ __metadata:
   dependencies:
     "@emotion/react": ^11.10.6
     "@emotion/styled": ^11.10.6
-    "@lokba-ui/react": ^0.0.13
+    "@lokba-ui/react": ^0.0.15
     "@svgr/webpack": ^6.5.1
     "@trivago/prettier-plugin-sort-imports": ^4.1.1
     "@types/react": ^18
