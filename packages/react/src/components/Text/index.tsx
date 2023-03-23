@@ -1,10 +1,12 @@
+import React from 'react';
+
 type LengthUnit = 'px' | 'em' | 'rem' | '%';
 type RGB = `rgb(${number}, ${number}, ${number})`;
 type RGBA = `rgba(${number}, ${number}, ${number}, ${number})`;
 type HEX = `#${string}`;
 
 type Props = {
-  as: keyof JSX.IntrinsicElements;
+  as: keyof React.ReactHTML;
   fontSize?: `${number}${LengthUnit}`;
   color?: RGB | RGBA | HEX;
   mt?: `${number}${LengthUnit}`;
