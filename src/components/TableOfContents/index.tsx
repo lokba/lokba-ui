@@ -1,3 +1,5 @@
+import { Text } from '@lokba-ui/react';
+
 import * as S from './index.style';
 
 type Props = {
@@ -9,8 +11,10 @@ const TableOfContents = (props: Props) => {
 
   return (
     <S.Container>
-      {contents.map((content,index) => (
-        <li key={index}>{content}</li>
+      {contents.map((content, index) => (
+        <Text as="li" fontSize="2rem" color="#868e96" key={index}>
+          {content}
+        </Text>
       ))}
     </S.Container>
   );

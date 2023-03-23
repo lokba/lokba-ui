@@ -28,10 +28,5 @@ export const StyledLink = styled(Link)<{ side: 'left' | 'right' }>`
     align-items: ${({ side }) => (side === 'left' ? 'flex-start' : 'flex-end')};
     gap: 0.5rem;
     font-size: 1.8rem;
-
-    > em {
-      font-size: 2.8rem;
-      font-weight: 700;
-    }
   }
 `;

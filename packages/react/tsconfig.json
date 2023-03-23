@@ -5,8 +5,9 @@
     "outDir": "dist",
     "baseUrl": ".",
     "noEmit": false,
-    "declaration": true
+    "declaration": true,
+    "incremental": false
   },
-  "include": ["src/components"],
+  "include": ["src/components/**/*"],
   "exclude": ["dist"]
 }

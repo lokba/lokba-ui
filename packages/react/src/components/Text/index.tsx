@@ -6,7 +6,7 @@ type RGBA = `rgba(${number}, ${number}, ${number}, ${number})`;
 type HEX = `#${string}`;
 
 type Props = {
-  as: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
+  as: keyof React.ReactHTML;
   fontSize?: `${number}${LengthUnit}`;
   color?: RGB | RGBA | HEX;
   mt?: `${number}${LengthUnit}`;
@@ -16,7 +16,7 @@ type Props = {
   children?: React.ReactNode;
 };
 
-const Heading = (props: Props) => {
+const Text = (props: Props) => {
   const {
     as,
     fontSize,
@@ -42,4 +42,4 @@ const Heading = (props: Props) => {
   );
 };
 
-export default Heading;
+export default Text;
