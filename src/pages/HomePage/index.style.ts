@@ -33,16 +33,3 @@ export const Right = styled.div`
     position: fixed;
   }
 `;
-
-export const Title = styled.h2`
-  font-size: 3.5rem;
-`;
-
-export const Description = styled.p`
-  font-size: 2rem;
-`;
-
-export const Sub = styled.h3`
-  margin: 1.5rem 0;
-  font-size: 3rem;
-`;

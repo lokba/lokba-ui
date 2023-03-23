@@ -1,3 +1,5 @@
+import { Text } from '@lokba-ui/react';
+
 import { Link, useParams } from 'react-router-dom';
 
 import { Menu } from '@/types';
@@ -15,7 +17,9 @@ const Sidebar = ({ menus }: Props) => {
     <S.Container>
       {menus.map(({ id, title, children }) => (
         <div key={id}>
-          <S.Title>{title}</S.Title>
+          <Text as="p" fontSize="2rem" color="#37b24d" mt="1.5rem" mb="1.5rem">
+            {title}
+          </Text>
           <S.List>
             {children.map((menu) => (
               <S.Menu key={menu} active={menu === currentMenu}>

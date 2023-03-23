@@ -1,3 +1,5 @@
+import { Text } from '@lokba-ui/react';
+
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai';
 
 import * as S from './index.style';
@@ -16,16 +18,20 @@ const Pagination = (props: Props) => {
         <S.StyledLink side="left" to={previous.url}>
           <AiOutlineArrowLeft />
           <div>
-            <span>Previous</span>
-            <em>{previous.label}</em>
+            <Text as="span">Previous</Text>
+            <Text as="em" fontSize="2.8rem">
+              {previous.label}
+            </Text>
           </div>
         </S.StyledLink>
       )}
       {!!next && (
         <S.StyledLink side="right" to={next.url}>
           <div>
-            <span>Next</span>
-            <em>{next.label}</em>
+            <Text as="span">Next</Text>
+            <Text as="em" fontSize="2.8rem">
+              {next.label}
+            </Text>
           </div>
           <AiOutlineArrowRight />
         </S.StyledLink>
