@@ -8,13 +8,6 @@ export const Container = styled.nav`
   padding: 1rem 2rem 4rem;
 `;
 
-export const Title = styled.p`
-  margin: 1.5rem 0;
-  font-size: 2rem;
-  font-weight: 700;
-  color: #37b24d;
-`;
-
 export const List = styled.ul`
   border-left: 3px solid #e7ebf0;
 `;

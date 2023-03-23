@@ -1,4 +1,4 @@
-import { Divider, Spacing } from '@lokba-ui/react';
+import { Divider, Heading, Spacing, Text } from '@lokba-ui/react';
 
 import { useParams } from 'react-router-dom';
 
@@ -16,17 +16,23 @@ const HomePage = () => {
       <Sidebar menus={MENUS} />
       <main>
         <S.Left>
-          <S.Title>{title}</S.Title>
+          <Heading as="h2" fontSize="3.5rem">
+            {title}
+          </Heading>
           <Divider height="2px" size="1rem" />
-          <S.Description>
+          <Text as="p" fontSize="2rem">
             {title} is the most abstract component on top of which all other Chakra UI components
             are built. By default, it renders a `div` element
-          </S.Description>
+          </Text>
           <Spacing size="4rem" />
-          <S.Sub>Import</S.Sub>
+          <Heading as="h3" fontSize="3rem" mt="1.5rem" mb="1.5rem">
+            Import
+          </Heading>
           <CodeBlock lang="jsx" code={`import { ${title} } from '@lokba-ui/react'`} />
           <Spacing size="4rem" />
-          <S.Sub>Example</S.Sub>
+          <Heading as="h3" fontSize="3rem" mt="1.5rem" mb="1.5rem">
+            Example
+          </Heading>
           <CodeBlock lang="jsx" code={EXAMPLE_CODE} />
           <Spacing size="8rem" />
           <Pagination
