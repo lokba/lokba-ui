@@ -7,43 +7,33 @@ type HEX = `#${string}`;
 
 type Props = {
   width?: `${number}${LengthUnit}`;
+  value?: string | number | null | undefined;
   placeholder?: string;
-  defaultValue?: string;
-  options: string[];
   bgColor?: RGB | RGBA | HEX;
   color?: RGB | RGBA | HEX;
-  onChange: (value: string) => void;
+  children?: React.ReactNode;
 };
-/**
- * TODO : children으로 options 받아보기
- */
+
 const Dropdown = (props: Props) => {
   const {
     width = '120px',
+    value,
     placeholder = '선택',
-    options,
-    defaultValue,
     bgColor = '#f1f3f5',
     color = '#000000',
-    onChange,
+    children,
   } = props;
 
   const ref = useRef<HTMLDivElement>(null);
   const [open, setOpen] = useState(false);
-  const [selected, setSelected] = useState<string | null>(defaultValue ?? null);
 
   const handleOpen = useCallback(() => setOpen((prev) => !prev), []);
-  const handleClick = useCallback((value: string) => {
-    setSelected(value);
-    onChange(value);
-    setOpen(false);
-  }, []);
+  const handleClick = useCallback(() => open && setOpen(false), [open]);
 
   useEffect(() => {
     const clickListener = (e: MouseEvent) => {
       if (!ref.current || !ref.current.contains(e.target as Node)) setOpen(false);
     };
-
     const keydownListener = (e: KeyboardEvent) => {
       if (e.key === 'Escape') setOpen(false);
     };
@@ -60,6 +50,7 @@ const Dropdown = (props: Props) => {
   return (
     <div
       ref={ref}
+      onClick={handleClick}
       style={{
         position: 'relative',
         width: `${width}`,
@@ -79,7 +70,7 @@ const Dropdown = (props: Props) => {
           cursor: 'pointer',
         }}
       >
-        <span>{selected ?? placeholder}</span>
+        <span>{value ?? placeholder}</span>
         <i
           style={{
             display: 'inline-block',
@@ -109,20 +100,7 @@ const Dropdown = (props: Props) => {
           zIndex: '10',
         }}
       >
-        {options.map((option, index) => (
-          <li
-            key={index}
-            onClick={() => handleClick(option)}
-            style={{
-              boxSizing: 'border-box',
-              width: '100%',
-              padding: '7px 14px',
-              cursor: 'pointer',
-            }}
-          >
-            {option}
-          </li>
-        ))}
+        {children}
       </ul>
     </div>
   );
