@@ -1,5 +1,3 @@
-import React from 'react';
-
 type LengthUnit = 'px' | 'em' | 'rem' | '%';
 type RGB = `rgb(${number}, ${number}, ${number})`;
 type RGBA = `rgba(${number}, ${number}, ${number}, ${number})`;
