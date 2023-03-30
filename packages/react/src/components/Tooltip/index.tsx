@@ -67,7 +67,7 @@ const Tooltip = (props: Props) => {
     };
 
     setOffset(OFFSET_TABLE[placement] ?? { top: 0, left: 0 });
-  }, []);
+  }, [placement]);
 
   return (
     <div
