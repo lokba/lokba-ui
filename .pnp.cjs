@@ -30,7 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@emotion/react", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:11.10.6"],\
             ["@emotion/styled", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:11.10.6"],\
-            ["@lokba-ui/react", "npm:0.0.15"],\
+            ["@lokba-ui/react", "npm:0.0.20"],\
             ["@svgr/webpack", "npm:6.5.1"],\
             ["@trivago/prettier-plugin-sort-imports", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:4.1.1"],\
             ["@types/react", "npm:18.0.28"],\
@@ -3071,12 +3071,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@lokba-ui/react", [\
-        ["npm:0.0.15", {\
-          "packageLocation": "./.yarn/cache/@lokba-ui-react-npm-0.0.15-3e0c88dee0-e52858175a.zip/node_modules/@lokba-ui/react/",\
+        ["npm:0.0.20", {\
+          "packageLocation": "./.yarn/cache/@lokba-ui-react-npm-0.0.20-bfb32df226-57bf2d5885.zip/node_modules/@lokba-ui/react/",\
           "packageDependencies": [\
-            ["@lokba-ui/react", "npm:0.0.15"],\
+            ["@lokba-ui/react", "npm:0.0.20"],\
             ["react", "npm:18.2.0"],\
-            ["react-dom", "virtual:3e0c88dee05df2a1ba62323e99d85b4042a133383672b247b9ec5c8b1fc8b0d69cdbe0d9454eb370caa79822d230b003b24c39429d8f29b90ae89a127b4d1e2d#npm:18.2.0"]\
+            ["react-dom", "virtual:bfb32df2262e7ba5b836ea0ff4eb01968cb6657932fb99d73e7ddf036e9c887e4135c54635c8c2cae27d3dd7e0dec70a99f9c6812c33a4e4e787edc54dc1cdb0#npm:18.2.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -8656,7 +8656,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-boilerplate", "workspace:."],\
             ["@emotion/react", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:11.10.6"],\
             ["@emotion/styled", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:11.10.6"],\
-            ["@lokba-ui/react", "npm:0.0.15"],\
+            ["@lokba-ui/react", "npm:0.0.20"],\
             ["@svgr/webpack", "npm:6.5.1"],\
             ["@trivago/prettier-plugin-sort-imports", "virtual:17c474009c65fede3078eabf4bd624fea8927b064acac1f8b77127f85b13b9fbc7eeefea8a46bd50a14712808888ba7074453444591682655f9e9fab9ccd0e99#npm:4.1.1"],\
             ["@types/react", "npm:18.0.28"],\
@@ -8709,10 +8709,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["virtual:3e0c88dee05df2a1ba62323e99d85b4042a133383672b247b9ec5c8b1fc8b0d69cdbe0d9454eb370caa79822d230b003b24c39429d8f29b90ae89a127b4d1e2d#npm:18.2.0", {\
-          "packageLocation": "./.yarn/__virtual__/react-dom-virtual-4867fd6b43/0/cache/react-dom-npm-18.2.0-dd675bca1c-7d323310be.zip/node_modules/react-dom/",\
+        ["virtual:bfb32df2262e7ba5b836ea0ff4eb01968cb6657932fb99d73e7ddf036e9c887e4135c54635c8c2cae27d3dd7e0dec70a99f9c6812c33a4e4e787edc54dc1cdb0#npm:18.2.0", {\
+          "packageLocation": "./.yarn/__virtual__/react-dom-virtual-a32e425fc7/0/cache/react-dom-npm-18.2.0-dd675bca1c-7d323310be.zip/node_modules/react-dom/",\
           "packageDependencies": [\
-            ["react-dom", "virtual:3e0c88dee05df2a1ba62323e99d85b4042a133383672b247b9ec5c8b1fc8b0d69cdbe0d9454eb370caa79822d230b003b24c39429d8f29b90ae89a127b4d1e2d#npm:18.2.0"],\
+            ["react-dom", "virtual:bfb32df2262e7ba5b836ea0ff4eb01968cb6657932fb99d73e7ddf036e9c887e4135c54635c8c2cae27d3dd7e0dec70a99f9c6812c33a4e4e787edc54dc1cdb0#npm:18.2.0"],\
             ["@types/react", null],\
             ["loose-envify", "npm:1.4.0"],\
             ["react", "npm:18.2.0"],\
