@@ -4,26 +4,21 @@ export const MENUS: Menu[] = [
   {
     id: 1,
     title: 'LAYOUT',
-    children: ['Box', 'Center', 'Container'],
+    children: ['Spacing'],
   },
   {
     id: 2,
     title: 'FORMS',
-    children: ['Button', 'Checkbox'],
+    children: ['Dropdown', 'InputField'],
   },
   {
     id: 3,
-    title: 'FEEDBACK',
-    children: ['Alert', 'Progress', 'Spinner'],
+    title: 'DATA DISPLAY',
+    children: ['Divider', 'Tooltip'],
   },
   {
     id: 4,
-    title: 'DATA DISPLAY',
-    children: ['Badge', 'Card', 'Code'],
-  },
-  {
-    id: 5,
     title: 'TYPOGRAPHY',
-    children: ['Text', 'Heading', 'Highlight'],
+    children: ['Heading', 'Text'],
   },
 ];

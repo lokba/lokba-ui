@@ -1,5 +1,7 @@
+type Title = 'LAYOUT' | 'FORMS' | 'DATA DISPLAY' | 'TYPOGRAPHY';
+
 export type Menu = {
   id: number;
-  title: string;
+  title: Title;
   children: string[];
 };
