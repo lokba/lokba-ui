@@ -2,7 +2,7 @@
 
 ## Installation
 
-To use Lokba UI components, all you need to do is install the`@chakra-ui/react` package
+To use Lokba UI components, all you need to do is install the`@lokba-ui/react` package
 
 ```sh
 $ yarn add @lokba-ui/react
