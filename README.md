@@ -1,13 +1,13 @@
-# react-boilerplate
+# lokba-ui
 
-- package manager : yarn berry
-- bundler : webpack
-- linter & formatting : eslint, prettier
-- language : typescript
-- framework : react
-- styling : emotion
-- api : axios
-- etc.
-  - github template(issue, template)
-  - automatic sorting of import statements
-  - absolute path
+## Installation
+
+To use Lokba UI components, all you need to do is install the`@chakra-ui/react` package
+
+```sh
+$ yarn add @lokba-ui/react
+
+# or
+
+$ npm i @lokba-ui/react
+```
