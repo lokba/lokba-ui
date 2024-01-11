@@ -1,9 +1,5 @@
 # lokba-ui
 
-## Status
-It's still in progress📈
-
-
 ## Installation
 
 To use Lokba UI components, all you need to do is install the`@lokba-ui/react` package
